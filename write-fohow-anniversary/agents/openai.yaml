@@ -1,0 +1,14 @@
+interface:
+  display_name: Сценарист юбилея FOHOW
+  short_description: Живой сценарий праздника, речь и точный тайминг
+  default_prompt: Примени $write-fohow-anniversary и подготовь сценарий годовщины
+    команды FOHOW по подтверждённым материалам.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
